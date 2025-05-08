@@ -126,6 +126,8 @@ li.budget {
 }
 
 .content-list {
+  padding-bottom: 1.5rem;
+
   & p {
     font: var(--paragraph);
     color: var(--text-secondary);
@@ -145,5 +147,24 @@ li.budget {
 
 div.content-card {
   padding-bottom: 1rem;
+}
+
+hr.footer {
+  padding: 2.5rem 0;
+}
+
+footer {
+  padding-top: 2.5rem;
+
+  & p {
+    font: var(--paragraph);
+    color: var(--text-secondary);
+    font-style: normal;
+    text-align: center;
+  }
+
+  & p.text-footer {
+    padding-bottom: 3rem;
+  }
 }
 
